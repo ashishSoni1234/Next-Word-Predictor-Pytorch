@@ -1,27 +1,12 @@
-# 🧠 Next Word Predictor using PyTorch
-
-This is a Deep Learning based **Next Word Prediction** model built using **PyTorch**. The model learns to predict the next word in a sequence, similar to how keyboards and search engines suggest completions.
-
+---
+title: NextWordPredictor
+emoji: 🔥
+colorFrom: red
+colorTo: gray
+sdk: gradio
+sdk_version: 5.35.0
+app_file: app.py
+pinned: false
 ---
 
-## 🔍 Project Overview
-
-- **Goal**: Given a sentence, predict the next most probable word.
-- **Framework**: PyTorch
-- **Tokenization**: NLTK Tokenizer
-- **Model**: Custom Neural Network with Embeddings + LSTM + Linear layer
-
----
-
-## 📁 Files
-
-| File Name                         | Description                                 |
-|----------------------------------|---------------------------------------------|
-| `next-word-predictor-pytorch-2.ipynb` | Main training and evaluation notebook       |
-| `model.pth`                      | Trained PyTorch model weights (to be saved) |
-| `tokenizer.pkl`                  | Pickled tokenizer used during training      |
-| `app.py`                         | Gradio app for deployment                   |
-| `requirements.txt`              | Python dependencies                         |
-
----
-
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
